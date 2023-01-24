@@ -1,3 +1,7 @@
 client/.gitignore
 client/README.md
 client/package-lock.json
+client/src/App.test.js
+client/src/setupTests.js
+server/node_modules/
+server/package-lock.json
