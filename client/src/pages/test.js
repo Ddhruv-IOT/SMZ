@@ -11,6 +11,7 @@ import Card from 'react-bootstrap/Card';
 import FloatingLabel from 'react-bootstrap/FloatingLabel';
 import { ArrowRight } from 'react-bootstrap-icons';
 import InputGroup from 'react-bootstrap/InputGroup';
+import Image from 'react-bootstrap/Image'
 
 function Register1() {
 
@@ -49,9 +50,54 @@ function Register1() {
                                         </Col>
                                     </div>
                                 </div>
+
+                                <div className='ctr'>
+                                    <div className="d-flex flex-row align-items-center mb-4 ">
+                                        <i class="fas fa-user me-3 fa-lg"></i>
+                                        <Col>
+                                            <FloatingLabel
+                                                controlId="floatingInput"
+                                                label="Password"
+                                                className="mb-3">
+                                                    <Form.Control type="password" placeholder="name@example.com" />
+                                            </FloatingLabel>
+                                        </Col>
+                                    </div>
+                                </div>
+
+                                <div className='ctr'>
+                                    <div className="d-flex flex-row align-items-center mb-4 ">
+                                        <i class="fas fa-user me-3 fa-lg"></i>
+                                        <Col>
+                                            <FloatingLabel
+                                                controlId="floatingInput"
+                                                label="Password"
+                                                className="mb-3">
+                                                    <Form.Control type="password" placeholder="name@example.com" />
+                                            </FloatingLabel>
+                                        </Col>
+                                    </div>
+                                </div>
+
+                                <div className='ctr'>
+                                    <div className="d-flex flex-row align-items-center mb-4 ">
+                                        <i class="fas fa-user me-3 fa-lg"></i>
+                                        <Col>
+                                            <FloatingLabel
+                                                controlId="floatingInput"
+                                                label="Password"
+                                                className="mb-3">
+                                                    <Form.Control type="password" placeholder="name@example.com" />
+                                            </FloatingLabel>
+                                        </Col>
+                                    </div>
+                                </div>
                             </Row>
                         </Col>
-                        <Col md='10' lg={5} className='order-1 order-lg-2 d-flex align-items-center pic c2'>2 of 2</Col>
+                        <Col md='10' lg={5} className='order-1 order-lg-2 d-flex align-items-center pic c2'>
+                            <Image  fluid src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-registration/draw1.webp">
+                            </Image>
+                        </Col>
                     </Row>
                 </Card.Body>
             </Card>
