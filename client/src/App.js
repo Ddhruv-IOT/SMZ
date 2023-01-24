@@ -4,6 +4,9 @@ import Register from "./pages/register";
 import Login from "./pages/login";
 import Dashboard from "./pages/quote";
 import Register1 from "./pages/test";
+import App1 from "./pages/test2";
+
+
 
 const App = () => {
   const user = localStorage.getItem("token")
@@ -13,6 +16,7 @@ const App = () => {
       <Route path="/login" exact element={<Login/>} />
       <Route path="/reg" exact element={<Register/>} />
       <Route path="/" exact element={<Register1/>} />
+      <Route path="/p" exact element={<App1/>} />
       { user && <Route path="/dashboard" exact element={<Dashboard/>} />}
     </Routes>
     </BrowserRouter>
