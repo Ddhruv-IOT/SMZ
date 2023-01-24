@@ -37,13 +37,42 @@ function Register1() {
                         <Col md='10' lg={5} className='order-2 order-lg-1 align-items-center color c1'>
                             <h3 className="fw-bold mb-5 mt-4"> Sign Up </h3>
                             <Row className="d-flex justify-content-center mb-4">
+                                
                                 <div className='ctr'>
                                     <div className="d-flex flex-row align-items-center mb-4 ">
                                         <i class="fas fa-user me-3 fa-lg"></i>
                                         <Col>
                                             <FloatingLabel
                                                 controlId="floatingInput"
-                                                label="Password"
+                                                label="Name"
+                                                className="mb-3">
+                                                    <Form.Control type="password" placeholder="name@example.com" />
+                                            </FloatingLabel>
+                                        </Col>
+                                    </div>
+                                </div>
+
+                                <div className='ctr'>
+                                    <div className="d-flex flex-row align-items-center mb-4 ">
+                                        <i class="fas fa-user me-3 fa-lg"></i>
+                                        <Col>
+                                            <FloatingLabel
+                                                controlId="floatingInput"
+                                                label="Email"
+                                                className="mb-3">
+                                                    <Form.Control type="password" placeholder="name@example.com" />
+                                            </FloatingLabel>
+                                        </Col>
+                                    </div>
+                                </div>
+
+                                <div className='ctr'>
+                                    <div className="d-flex flex-row align-items-center mb-4 ">
+                                        <i class="fas fa-user me-3 fa-lg"></i>
+                                        <Col>
+                                            <FloatingLabel
+                                                controlId="floatingInput"
+                                                label="Mobile Number"
                                                 className="mb-3">
                                                     <Form.Control type="password" placeholder="name@example.com" />
                                             </FloatingLabel>
@@ -71,33 +100,31 @@ function Register1() {
                                         <Col>
                                             <FloatingLabel
                                                 controlId="floatingInput"
-                                                label="Password"
+                                                label="Confirm Password"
                                                 className="mb-3">
                                                     <Form.Control type="password" placeholder="name@example.com" />
                                             </FloatingLabel>
                                         </Col>
+                                    </div>
+                                </div>
+                                
+                                <div className='ctr'>
+                                    <div className="align-items-center mb-4 ">
+                                        <Button variant="primary" type="submit">
+                                            <Col>
+                                            Submit
+                                            </Col>
+                                        </Button>
                                     </div>
                                 </div>
 
-                                <div className='ctr'>
-                                    <div className="d-flex flex-row align-items-center mb-4 ">
-                                        <i class="fas fa-user me-3 fa-lg"></i>
-                                        <Col>
-                                            <FloatingLabel
-                                                controlId="floatingInput"
-                                                label="Password"
-                                                className="mb-3">
-                                                    <Form.Control type="password" placeholder="name@example.com" />
-                                            </FloatingLabel>
-                                        </Col>
-                                    </div>
-                                </div>
                             </Row>
                         </Col>
                         <Col md='10' lg={5} className='order-1 order-lg-2 d-flex align-items-center pic c2'>
                             <Image  fluid src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-registration/draw1.webp">
                             </Image>
                         </Col>
+                        
                     </Row>
                 </Card.Body>
             </Card>

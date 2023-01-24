@@ -5,6 +5,41 @@
     /* height: 100%;*/
 }
 
+/* .t {
+    flex-direction: column-reverse;
+} */
+
 .ctr {
-    width: 55%;
+    width: 60%;
+}
+
+/* .c1 {
+    order:1;
+}
+
+.c2 {
+    order: 2;
+} */
+
+/* @media only screen and (max-width: 992px)  {
+    .pic{
+        display: none;
+    }
+} */
+
+@media only screen and (max-width: 768px)  {
+    /* .pic{
+        display: none;
+    } */
+    .color {
+        color:lime;
+        width: auto;
+        /* background-color: black;
+        width: 50%; 
+         height: 100%;*/
+    }
+    .ctr {
+        width:100%;
+    }
+    
 }
