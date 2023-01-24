@@ -32,99 +32,26 @@ function Register1() {
         <Container fluid style={{display:'flex',height:'auto', alignItems:'center', justifyContent:'center', padding:"20px", background:'skyblue', justifyItems: 'center'}}  className="center">
             <Card style={{ width: '90vw', borderRadius:"25px", alignSelf: 'center',justifySelf:'center', padding:'35px 10px'}} className="text-center">
                 <Card.Body>
-                    <Row className="d-flex justify-content-center">
-                        <Col lg={2} md={5} className="color">
+                    <Row className="t d-flex justify-content-center">
+                        <Col md='10' lg={5} className='order-2 order-lg-1 align-items-center color c1'>
                             <h3 className="fw-bold mb-5 mt-4"> Sign Up </h3>
                             <Row className="d-flex justify-content-center mb-4">
                                 <div className='ctr'>
-                                    <Col md>
-                                         <Form.Floating className="mb-3">
-                                            <Form.Control
-                                            id="floatingInputCustom"
-                                            type="email"
-                                            placeholder="name@example.com"
-                                            />
-                                            <label htmlFor="floatingInputCustom">Email address</label>
-                                        </Form.Floating>
-                                       
-                                    </Col>
-
-                                    <Col md>
-                                     <FloatingLabel
-                                            controlId="floatingInput"
-                                            label="Password"
-                                            className="mb-3">
-                                                <Form.Control type="password" placeholder="name@example.com" />
-                                        </FloatingLabel>
-                                    </Col>
-
-                                    <Col md>
-                                        <FloatingLabel
-                                            controlId="floatingInput"
-                                            label="Your Email"
-                                            className="mb-3">
-                                                <Form.Control type="email" placeholder="name@example.com" />
-                                        </FloatingLabel>
-                                    </Col>
-
-                                    <Col md>
-                                        <FloatingLabel
-                                            controlId="floatingInput"
-                                            label="Your Email"
-                                            className="mb-3">
-                                                <Form.Control type="email" placeholder="name@example.com" />
-                                        </FloatingLabel>
-                                    </Col>
-
-                                    <Col md>
-                                        <FloatingLabel
-                                            controlId="floatingInput"
-                                            label="Your Email"
-                                            className="mb-3">
-                                                <Form.Control type="email" placeholder="name@example.com" />
-                                        </FloatingLabel>
-                                    </Col>
-
-                                    <Col md>
-                                        <FloatingLabel
-                                            controlId="floatingInput"
-                                            label="Your Email"
-                                            className="mb-3">
-                                                <Form.Control type="email" placeholder="name@example.com" />
-                                        </FloatingLabel>
-                                    </Col>
-
-                                    <Col md>
-                                        <FloatingLabel
-                                            controlId="floatingInput"
-                                            label="Your Email"
-                                            className="mb-3">
-                                                <Form.Control type="email" placeholder="name@example.com" />
-                                        </FloatingLabel>
-                                    </Col>
-
-                                    <Col md>
-                                        <FloatingLabel
-                                            controlId="floatingInput"
-                                            label="Your Email"
-                                            className="mb-3">
-                                                <Form.Control type="email" placeholder="name@example.com" />
-                                        </FloatingLabel>
-                                    </Col>
-
-                                    <Col md>
-                                        <FloatingLabel
-                                            controlId="floatingInput"
-                                            label="Your Email"
-                                            className="mb-3">
-                                                <Form.Control type="email" placeholder="name@example.com" />
-                                        </FloatingLabel>
-                                    </Col>
-
+                                    <div className="d-flex flex-row align-items-center mb-4 ">
+                                        <i class="fas fa-user me-3 fa-lg"></i>
+                                        <Col>
+                                            <FloatingLabel
+                                                controlId="floatingInput"
+                                                label="Password"
+                                                className="mb-3">
+                                                    <Form.Control type="password" placeholder="name@example.com" />
+                                            </FloatingLabel>
+                                        </Col>
+                                    </div>
                                 </div>
                             </Row>
                         </Col>
-                        <Col>2 of 2</Col>
+                        <Col md='10' lg={5} className='order-1 order-lg-2 d-flex align-items-center pic c2'>2 of 2</Col>
                     </Row>
                 </Card.Body>
             </Card>
