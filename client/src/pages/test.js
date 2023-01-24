@@ -9,7 +9,8 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import Card from 'react-bootstrap/Card';
 import FloatingLabel from 'react-bootstrap/FloatingLabel';
-
+import { ArrowRight } from 'react-bootstrap-icons';
+import InputGroup from 'react-bootstrap/InputGroup';
 
 function Register1() {
 
@@ -37,16 +38,19 @@ function Register1() {
                             <Row className="d-flex justify-content-center mb-4">
                                 <div className='ctr'>
                                     <Col md>
-                                        <FloatingLabel
-                                            controlId="floatingInput"
-                                            label="Email"
-                                            className="mb-3">
-                                                <Form.Control type="email" placeholder="name@example.com"/>
-                                        </FloatingLabel>
+                                         <Form.Floating className="mb-3">
+                                            <Form.Control
+                                            id="floatingInputCustom"
+                                            type="email"
+                                            placeholder="name@example.com"
+                                            />
+                                            <label htmlFor="floatingInputCustom">Email address</label>
+                                        </Form.Floating>
+                                       
                                     </Col>
 
                                     <Col md>
-                                        <FloatingLabel
+                                     <FloatingLabel
                                             controlId="floatingInput"
                                             label="Password"
                                             className="mb-3">
